@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace strayshaz\JoinCommands;
+namespace Distemi\JoinCommands;
 
 use pocketmine\event\Listener;
 use pocketmine\lang\Language;
@@ -53,7 +53,7 @@ class Main extends PluginBase implements Listener {
         $this->commands = $this->config->get("Commands");
         $sender->sendMessage("JoinCommands config reloaded!");
 
-        if ($enbl != $this->enabled && !self::$Enabled) {
+        if ($enbl != $this->enabled && !$this->enabled) {
             $sender->sendMessage("JoinCommands disabled!");
         }
 

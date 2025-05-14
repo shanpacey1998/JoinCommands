@@ -1,9 +1,9 @@
 name: JoinCommands
-main: strayshaz\JoinCommands\Main
+main: Distemi\JoinCommands\Main
 description: Join commands
 version: 0.1.0
 api: 5.0.0
-author: strayshaz
+author: Distemi
 commands:
  joincommands:
   description: "Reload plugin JoinCommands."
