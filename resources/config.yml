@@ -1,11 +1,4 @@
 ---
-################################
-#                              #
-#  Plugin cleated by Distemi.  #
-#                              #
-################################
-
-
 #Enable execute commnd(-s) on join player on server? 
 Enabled: true
 
