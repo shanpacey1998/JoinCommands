@@ -1,7 +1,7 @@
 name: JoinCommands
 main: Distemi\JoinCommands\Main
 description: Join commands
-version: 0.1.0
+version: 0.2.0
 api: 5.0.0
 author: Distemi
 commands:
